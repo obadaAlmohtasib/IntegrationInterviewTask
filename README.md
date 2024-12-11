@@ -8,7 +8,7 @@ I have ensured that no deprecated features or APIs are used, and the application
 ### Database Design: 
 I used H2 file database - making my system portable -. <br />
 I have used Database per Service Pattern. <br />
-I chose to establish the relationship between tables using the customerId. This was done because customerId is a numeric field, which allows for efficient indexing using a range index.
+I chose to establish the relationship between tables/resources using the customerId. This was done because customerId is a numeric field, which allows for efficient indexing using a range index.
 
 ### Event-Driven Architecture: 
 I used ActiveMQ embedded broker (New Feature in Spring Boot 3.4) for JMS messaging. <br />
