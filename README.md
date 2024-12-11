@@ -56,6 +56,5 @@ these what I came across while developing the task, but there are many more -> (
 - The system does not currently implement rate limiting, timeout between microservices communication and does not implement a recovery pattern, which may cause system-wide failures. <br />
 Does not implement fallback response in case of failure. We may use eureka - any other instance discovery solution - for dynamic scaling better performance. <br />
 - The system has not configured a connection pool for database connections or external service calls. Without a connection pool, the application may face Resource Exhaustion and Thread Blockages. <br />
-- 
-
+ 
 
