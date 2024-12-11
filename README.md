@@ -19,7 +19,8 @@ and the database layer (with constraints such as @Size, @NotNull, and unique con
 implemented global exception handling.
 
 ## Microservices communication:
-I have used FeignClient.
+For communication between the **Customer** and **Account** microservices, I have used **Spring Cloud FeignClient**. 
+Feign provides a declarative way to create REST clients, abstracts much of the complexity, and enhancing productivity;
 
 -----
 ## Security:
