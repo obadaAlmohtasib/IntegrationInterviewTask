@@ -6,7 +6,7 @@ I have ensured that no deprecated features or APIs are used, and the application
 
 Design Decisions: 
 ## Database Design: 
-I used H2 file database.
+I used H2 file database - making my system portable -. <br />
 
 ## Event-Driven Architecture: 
 I used ActiveMQ embedded broker (New Feature in Spring Boot 3.4) for JMS messaging. <br />
